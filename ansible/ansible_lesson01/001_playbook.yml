@@ -7,7 +7,7 @@
   become_user: root
 
   tasks:
-  - name: insrtall vim
+  - name: install vim
     package:
      name: vim
      state: latest
