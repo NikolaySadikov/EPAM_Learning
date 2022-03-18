@@ -1,0 +1,25 @@
+---
+- name: 002_practice_task_001
+  hosts: all
+  
+  tasks:
+  - name: install apache
+    yum:
+      name: httpd
+      state: absent
+
+  - name: Remove file /var/www/html/index.html
+    file:
+      path: /var/www/html/index.html
+      state: absent
+
+  - name: Open port tcp/80
+    firewalld:
+      service: http
+      permanent: true
+      state: disabled
+
+  - name: Restart the firewalld service to load in the firewall changes
+    service:
+      name: firewalld
+      state: restarted
