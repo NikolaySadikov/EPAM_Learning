@@ -1,9 +1,9 @@
 ---
 - name: Users add
-  hosts: node1
+  hosts: all
   vars_files:
     - vars/users
-    - foo.yml
+      #    - foo.yml
   vars:
     foo: !vault |
           $ANSIBLE_VAULT;1.1;AES256

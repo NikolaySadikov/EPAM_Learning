@@ -740,3 +740,81 @@ rm secret.yml
 rm 005_distro.yml
 ls -la
 exit
+cd /home/
+ls -la
+git status
+git add .
+sudo git add .
+history 
+    sudo git push --set-upstream origin master
+ls
+cd ansible/
+ls
+git add .
+sudo git add .
+git status
+ls -la
+cd ..
+gi status
+git status
+git commit 
+sudo git commit 
+    sudo git push --set-upstream origin master
+cd /home/ansible/
+cd /home/ansible/ansible_lesson02/
+ls
+ansible-vault encrypt_straing --vault-password-file master_password 'foobar' --name 'user_secret'
+ansible-vault encrypt_string --vault-password-file master_password 'foobar' --name 'user_secret'
+ansible-vault encrypt_string --vault-password-file master_password 'foobar' --name 'the_secret'
+ansible-vault encrypt_string --vault-password-file master_password --name 'user_secret'
+ansible-vault encrypt_string --vault-password-file master_password 
+mv master_password master_password.txt
+ls
+ansible-vault encrypt_string --vault-password-file master_password.txt --name 'secret_key'
+cat master_password.txt 
+ansible-vault encrypt_string --vault-password-file master_password.txt --name 'secret_key'
+ansible-vault encrypt_string --vault-password-file ./master_password.txt --name 'secret_key'
+ansible-vault encrypt_string --vault-password-file /home/ansible/ansible_lesson02/master_password.txt --name 'secret_key'
+cat master_password.txt 
+rm master_password.txt 
+vim master_password.txt
+ansible-vault encrypt_string --vault-password-file /home/ansible/ansible_lesson02/master_password.txt --name 'secret_key'
+ansible-vault encrypt_string --vault-password-file .master_password.txt --name 'secret_key'
+sudo ansible-vault encrypt_string --vault-password-file .master_password.txt --name 'secret_key'
+vim master_password.txt
+sudo ansible-vault encrypt_string --vault-password-file .master_password.txt --name 'secret_key'
+sudo ansible-vault encrypt_string --vault-password-file=master_password.txt --name 'secret_key'
+vim master_password.txt
+encrypt_string 'P@$$w0rd' --name 'user_password'
+ansible-vault encrypt_string 'P@$$w0rd' --name 'user_password'
+vim ansible.cfg 
+sudo ansible-vault encrypt_string --vault-password-file .master_password.txt --name 'secret_key'
+sudo ansible-vault encrypt_string --vault-password-file=master_password.txt --name 'secret_key'
+ansible-vault encrypt_string --vault-password-file master_password.txt --name 'secret_key'
+ansible-vault encrypt_string --vault-password-file master_password.txt 'foobar' --name 'secret_key'
+ansible-vault encrypt_string --vault-password-file master_password.txt 'foobar' --name 'user_key'
+vim sevret.yml
+mv sevret.yml secret.yml
+cat master_password.txt 
+vim master_password.txt 
+ansible-vault encrypt_string --vault-password-file master_password.txt
+ll
+cat secret.yml 
+vim secret.yml 
+cat secret.yml 
+cat foo.txt 
+vim foo.txt 
+mv foo.txt foo.yml
+cd /home/ansible/ansible_lesson02/
+vim 001_practice_task_02.yml 
+ansible-vault encrypt_string --vault-password-file master_password.txt
+ansible-vault 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+ls
+rm foo.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+exit
