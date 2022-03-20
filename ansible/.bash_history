@@ -320,3 +320,423 @@ ansible all -i inventory --list-hosts
 ansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hostsansible all -i inventory --list-hosts!
 cd /home/ansible/ansible_lesson01/
 vim ansible.cfg 
+cd /home/ansible/ansible_lesson01/
+ls
+vim ansible.cfg 
+ansible -m ping all
+vim 001_practice_task_01.yml
+ansible-galaxy collection install ansible.posix
+vim 001_practice_task_01.yml
+ansible-playbook --syntax-check 001_practice_task_01.yml
+vim ansible.cfg 
+ansible-playbook --syntax-check 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+ansible all -a 'uptime'
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim ansible.cfg 
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+ansible-playbook 001_practice_task_01.yml
+vim 001_practice_task_01.yml
+cd /home/ansible/ansible_lesson01/
+vim ansible.cfg 
+ls
+vim 002_practice_task_01.yml
+ansible-playbook 002_practice_task_01.yml
+vim 002_practice_task_01.yml
+ansible-playbook 002_practice_task_01.yml
+vim 002_practice_task_01.yml
+ansible-playbook 002_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+vim 003_practice_task_01.yml
+ansible-playbook 003_practice_task_01.yml
+cd ..
+gi status
+git status
+ls -la
+cd ..
+ls
+ls -la
+git status
+git add .
+sudo git add .
+gi status
+git status
+git commit -m 'Task01 with 3 subtasks complite'
+sudo git commit -m 'Task01 with 3 subtasks complite'
+git push
+git remote -v
+git push
+git push --set-upstream origin master
+sudo git push --set-upstream origin master
+ls
+cd ./ansible/
+ls
+mkdir ansible_lesson02
+ls
+cd ./ansible_lesson02/
+ls
+vim ansible.cfg
+cp /home/ansible/ansible_lesson01/inventory inventory
+ls
+ansible -m ping all
+ansible -m setup node1
+cd /home/ansible/ansible_lesson02/
+ls -la
+ansible node1 -m setup -a "filter-ansible_kernel"
+ansible -m ping all
+ansible node1 -m setup -a 'filter=ansible_kernel'
+ansible node1 -m setup -a 'filter=ansible_local'
+vim 001_practice_task_01.yml
+ls
+vim 001_practice_task_02.yml
+ls
+rm 001_practice_task_02.yml newfacts.yml
+cd /home/ansible/ansible_lesson02/
+ls ./vars/users
+cat ./vars/users
+cd vars/
+mv users users.yml
+ls
+rm users
+rm users.yml 
+vim users.yml
+ls
+vim users
+rm users
+vim users.yml
+cd ..
+ls
+cd vars/
+ls
+
+vim users.yml
+cat users.yml 
+vim users.yml 
+cat users.yml 
+vim users.yml 
+ls
+rm users
+rm users.yml 
+vim users
+cat users
+ls
+cat users_pass_vault.yml 
+vim users_pass_vault.yml 
+rm users_pass_vault.yml 
+exit
+cd /home/ansible/ansible_lesson02/
+vim 005_distro.yml
+ansible-playbook 005_distro.yml 
+mkdir vars
+ls
+ls -l
+vim 005_distro.yml
+ansible-playbook 005_distro.yml 
+vim 005_distro.yml
+ansible-playbook 005_distro.yml 
+vim 005_distro.yml
+ansible-playbook 005_distro.yml 
+ls
+cd vars/
+vim users
+ls
+cd ..
+cd /var/
+ls
+cd /home/ansible/ansible_lesson02/vars/
+ls
+cd ..
+vim master_password
+ls
+ls /home/ansible/ansible_lesson01/
+vim 001_practice_task_02.yml
+ls /var/
+ls ./vars/
+cd ./vars/
+cd ..
+cat 001_practice_task_02.yml 
+cd ./vars/
+vim users_pass_vault.yml
+ls ./vars/
+ls
+vim users
+cd ..
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+cat ansible.cfg 
+vim ansible.cfg 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt 
+ansible-playbook 001_practice_task_02.yml --vault-password-file=master_password.txt 
+ansible-playbook 001_practice_task_02.yml --ask-vault-pass
+ansible-playbook 001_practice_task_02.yml --vault-password-file=master_password.txt 
+ansible-vault decrypt secret.yml --vault-password-file=master_password.txt
+vim 001_practice_task_02.yml
+ansible-vault decrypt secret.yml --vault-password-file=master_password.txt
+ansible-playbook 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml --vault-password-file=master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file=master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+ansible-playbook 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+ansible-playbook 001_practice_task_02.yml --ask-become-pass
+ansible-vault encrypt_string 'bar' --name 'foo'
+ansible-vault encrypt_string 'bar' --name 'foo' --vault-password-file master_password.txt 
+ansible-vault encrypt_string 'bar' --name 'foo' --vault-password-file master_password.txt > foo.txt
+cat foo.txt 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim ansible.cfg 
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+ansible-playbook 001_practice_task_02.yml --vault-password-file
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+cat master_password.txt 
+vim 001_practice_task_02.yml
+cat master_password.txt 
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+cat master_password.txt 
+vim 001_practice_task_02.yml
+cat master_password.txt 
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml
+ls
+rm secret.yml
+rm 005_distro.yml
+ls -la
+exit
