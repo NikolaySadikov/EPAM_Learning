@@ -4,7 +4,7 @@
   vars_files:
     - vars/users
   vars:
-    # Encrypdes password "bar"
+    # Encrypted password "bar"
     user_pass: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           36306435343339303334343635666638623165383930383563626438393837333461306263656334
