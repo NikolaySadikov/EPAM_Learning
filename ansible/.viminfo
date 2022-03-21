@@ -15,13 +15,15 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1647755726,,"wq"
+|2,0,1647864019,,"wq"
 :q
-|2,0,1647755668,,"q"
+|2,0,1647863871,,"q"
+:qa!
+|2,0,1647862835,,"qa!"
+:qw
+|2,0,1647859691,,"qw"
 :qa1
 |2,0,1647738908,,"qa1"
-:qa!
-|2,0,1647725073,,"qa!"
 :qa
 |2,0,1647646665,,"qa"
 :w
@@ -56,268 +58,239 @@
 |3,1,36,0,1,0,1647736678,"u"
 
 # File marks:
-'0  3  11  ~/ansible_lesson02/001_practice_task_02.yml
-|4,48,3,11,1647755726,"~/ansible_lesson02/001_practice_task_02.yml"
-'1  36  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,49,36,20,1647755691,"~/ansible_lesson02/001_practice_task_02.yml"
-'2  36  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,50,36,20,1647755691,"~/ansible_lesson02/001_practice_task_02.yml"
-'3  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,51,34,8,1647755668,"~/ansible_lesson02/001_practice_task_02.yml"
-'4  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,52,34,8,1647755668,"~/ansible_lesson02/001_practice_task_02.yml"
-'5  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,53,34,8,1647755668,"~/ansible_lesson02/001_practice_task_02.yml"
-'6  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,54,34,8,1647755668,"~/ansible_lesson02/001_practice_task_02.yml"
-'7  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,55,6,6,1647755525,"~/ansible_lesson02/001_practice_task_02.yml"
-'8  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,56,6,6,1647755525,"~/ansible_lesson02/001_practice_task_02.yml"
-'9  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,57,6,6,1647755525,"~/ansible_lesson02/001_practice_task_02.yml"
+'0  3  1  ~/ansible_lesson02/001_practice_task_02.yml
+|4,48,3,1,1647864019,"~/ansible_lesson02/001_practice_task_02.yml"
+'1  7  28  ~/ansible_lesson02/001_practice_task_02.yml
+|4,49,7,28,1647863946,"~/ansible_lesson02/001_practice_task_02.yml"
+'2  7  28  ~/ansible_lesson02/001_practice_task_02.yml
+|4,50,7,28,1647863946,"~/ansible_lesson02/001_practice_task_02.yml"
+'3  1  0  /home/001_practice_task_02.yml
+|4,51,1,0,1647863871,"/home/001_practice_task_02.yml"
+'4  33  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,52,33,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+'5  34  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,53,34,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+'6  33  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,54,33,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+'7  34  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,55,34,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+'8  33  42  ~/ansible_lesson02/001_practice_task_02.yml
+|4,56,33,42,1647863514,"~/ansible_lesson02/001_practice_task_02.yml"
+'9  34  42  ~/ansible_lesson02/001_practice_task_02.yml
+|4,57,34,42,1647863514,"~/ansible_lesson02/001_practice_task_02.yml"
 
 # Jumplist (newest first):
--'  3  11  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,3,11,1647755726,"~/ansible_lesson02/001_practice_task_02.yml"
--'  36  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,20,1647755701,"~/ansible_lesson02/001_practice_task_02.yml"
--'  36  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,20,1647755691,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,8,1647755669,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,8,1647755669,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  8  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,8,1647755668,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,6,1647755654,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,6,1647755654,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,6,1647755654,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  6  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,6,1647755525,"~/ansible_lesson02/001_practice_task_02.yml"
--'  41  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,41,15,1647755493,"~/ansible_lesson02/001_practice_task_02.yml"
--'  41  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,41,15,1647755493,"~/ansible_lesson02/001_practice_task_02.yml"
--'  41  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,41,15,1647755493,"~/ansible_lesson02/001_practice_task_02.yml"
--'  41  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,41,15,1647755493,"~/ansible_lesson02/001_practice_task_02.yml"
--'  41  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,41,15,1647742127,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  49  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,49,1647742070,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  49  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,49,1647742070,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  49  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,49,1647742070,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  49  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,49,1647742070,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  49  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,49,1647742070,"~/ansible_lesson02/001_practice_task_02.yml"
--'  25  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,25,15,1647742053,"~/ansible_lesson02/001_practice_task_02.yml"
--'  25  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,25,15,1647742053,"~/ansible_lesson02/001_practice_task_02.yml"
--'  25  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,25,15,1647742053,"~/ansible_lesson02/001_practice_task_02.yml"
--'  25  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,25,15,1647742053,"~/ansible_lesson02/001_practice_task_02.yml"
--'  25  15  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,25,15,1647742053,"~/ansible_lesson02/001_practice_task_02.yml"
--'  35  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
--'  35  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
--'  35  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  3  1  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,3,1,1647864019,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  7  28  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,7,28,1647863982,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  7  28  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,7,28,1647863946,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  33  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,33,41,1647863901,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  33  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,33,41,1647863901,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  1  0  /home/001_practice_task_02.yml
+|4,39,1,0,1647863871,"/home/001_practice_task_02.yml"
+-'  1  0  /home/001_practice_task_02.yml
+|4,39,1,0,1647863871,"/home/001_practice_task_02.yml"
+-'  1  0  /home/001_practice_task_02.yml
+|4,39,1,0,1647863871,"/home/001_practice_task_02.yml"
+-'  1  0  /home/001_practice_task_02.yml
+|4,39,1,0,1647863871,"/home/001_practice_task_02.yml"
+-'  34  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  41  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,41,1647863766,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  42  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,42,1647863514,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  42  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,42,1647863514,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647863499,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647862835,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  8  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,8,1647862835,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647862694,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647862694,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647862648,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647862648,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647861589,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647861589,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647861406,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647861406,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  34  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
--'  35  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,34,22,1647861318,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  34  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
--'  35  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,22,1647742034,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,22,1647741938,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,22,1647741938,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,22,1647741938,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,22,1647741938,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,22,1647741938,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,34,22,1647861318,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  34  22  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,22,1647741938,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,34,22,1647861313,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  22  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,22,1647861313,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  60  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,60,1647861165,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  60  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,60,1647861165,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  34  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,25,1647741902,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  25  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,25,1647741894,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  31  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,31,1647741854,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  31  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,31,1647741854,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  31  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,31,1647741854,"~/ansible_lesson02/001_practice_task_02.yml"
--'  24  31  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,24,31,1647741823,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,34,25,1647861134,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  25  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,25,1647861134,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647861097,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  30  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,30,1647861097,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,37,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
--'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,37,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,37,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
--'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,37,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,37,21,1647861014,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,34,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
--'  37  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,37,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,36,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,36,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,36,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,21,1647741788,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
 -'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,35,21,1647741731,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741731,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741731,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,20,1647741713,"~/ansible_lesson02/001_practice_task_02.yml"
--'  31  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,31,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  31  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,31,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  31  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,31,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  31  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,31,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  31  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,31,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  33  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,33,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,17,1647741700,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  17  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,17,1647741696,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  26  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,26,1647741673,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741651,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741651,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741542,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,20,1647741519,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  28  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,28,1647741510,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  28  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,28,1647741510,"~/ansible_lesson02/001_practice_task_02.yml"
--'  32  28  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,32,28,1647741506,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741462,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  21  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,21,1647741301,"~/ansible_lesson02/001_practice_task_02.yml"
--'  34  20  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,34,20,1647741275,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
--'  6  12  ~/ansible_lesson02/001_practice_task_02.yml
-|4,39,6,12,1647741244,"~/ansible_lesson02/001_practice_task_02.yml"
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  35  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,35,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  21  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,21,1647860884,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  20  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,20,1647860860,"~/ansible_lesson02/001_practice_task_02.yml"
+-'  36  20  ~/ansible_lesson02/001_practice_task_02.yml
+|4,39,36,20,1647860860,"~/ansible_lesson02/001_practice_task_02.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/ansible_lesson02/001_practice_task_02.yml
-	*	1647755724	0
-	"	3	11
-	^	3	12
-	.	3	11
-	+	3	243
-	+	3	200
-	+	3	182
-	+	3	157
-	+	3	165
-	+	3	78
-	+	3	93
-	+	3	133
-	+	3	241
-	+	3	199
-	+	3	233
-	+	15	0
-	+	15	7
-	+	17	218
-	+	17	119
-	+	17	9
-	+	16	14
-	+	18	0
-	+	5	15
-	+	15	1
-	+	16	3
-	+	17	5
-	+	25	29
-	+	18	13
-	+	19	32
-	+	22	55
-	+	23	11
-	+	21	36
-	+	29	40
+	*	1647864018	0
+	"	3	1
+	^	3	2
+	.	3	2
 	+	32	37
 	+	31	38
-	+	36	22
+	+	35	22
 	+	30	39
 	+	27	2
 	+	28	6
@@ -325,8 +298,8 @@
 	+	30	5
 	+	31	4
 	+	32	3
-	+	35	2
-	+	36	1
+	+	33	63
+	+	35	1
 	+	29	14
 	+	30	17
 	+	31	14
@@ -335,9 +308,9 @@
 	+	30	40
 	+	29	40
 	+	20	42
-	+	37	29
-	+	36	21
-	+	7	2
+	+	36	29
+	+	35	21
+	+	6	2
 	+	8	18
 	+	8	435
 	+	8	3
@@ -349,43 +322,76 @@
 	+	8	431
 	+	33	31
 	+	32	39
-	+	36	21
+	+	35	21
 	+	5	31
-	+	37	29
-	+	7	0
-	+	37	25
+	+	36	29
+	+	6	0
+	+	36	25
 	+	33	28
 	+	8	26
 	+	33	26
-	+	36	20
+	+	35	20
 	+	8	430
 	+	33	18
-	+	6	15
+	+	5	31
 	+	33	31
-	+	6	13
+	+	5	29
 	+	14	13
-	+	6	13
+	+	5	29
 	+	33	53
-	+	36	20
+	+	35	20
 	+	33	25
-	+	36	21
+	+	35	21
 	+	33	18
-	+	35	0
-	+	6	12
-	+	36	21
+	+	33	61
+	+	5	28
+	+	35	21
 	+	33	28
-	+	36	21
+	+	35	21
 	+	33	18
-	+	36	21
+	+	35	21
 	+	24	31
 	+	33	18
-	+	34	22
+	+	33	40
 	+	24	34
 	+	25	0
-	+	41	15
-	+	6	0
-	+	36	21
+	+	40	15
+	+	5	16
+	+	35	21
 	+	3	11
+	+	24	56
+	+	35	21
+	+	24	61
+	+	35	21
+	+	33	62
+	+	24	31
+	+	35	21
+	+	33	36
+	+	35	21
+	+	33	18
+	+	33	17
+	+	34	0
+	+	33	94
+	+	8	13
+	+	33	30
+	+	24	36
+	+	38	33
+	+	33	31
+	+	40	21
+	+	35	21
+	+	7	18
+	+	33	25
+	+	34	0
+	+	33	42
+	+	6	0
+	+	7	28
+	+	3	3
+	+	4	2
+	+	3	2
+
+> /home/001_practice_task_02.yml
+	*	1647863869	0
+	"	1	0
 
 > ~/ansible_lesson02/ansible.cfg
 	*	1647741203	0
@@ -753,32 +759,3 @@
 	^	7	38
 	.	7	37
 	+	7	37
-
-> ~/ansible_lesson01/001_playbook.yml
-	*	1645898344	0
-	"	13	17
-	^	13	18
-	.	13	17
-	+	3	14
-	+	14	2
-	+	3	12
-	+	13	34
-	+	10	15
-	+	13	20
-	+	11	24
-	+	11	6
-	+	11	12
-	+	11	7
-	+	11	13
-	+	11	45
-	+	11	27
-	+	11	14
-	+	11	39
-	+	12	7
-	+	10	19
-	+	13	0
-	+	12	4
-	+	13	17
-	+	14	0
-	+	10	17
-	+	13	17

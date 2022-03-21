@@ -818,3 +818,12 @@ ansible-playbook 001_practice_task_02.yml
 vim 001_practice_task_02.yml
 ansible-playbook 001_practice_task_02.yml 
 exit
+cd /home/
+git status
+git add .
+sudo git add .
+sudo git commit
+sudo git commit -m "edit of Task2"
+history 
+git push
+sudo git push
