@@ -1,28 +1,3 @@
-cat inventory 
-ansible-inventory --graph
-ansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graph!
-ansible all -m ping
-ansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m pingansible all -m ping!
-ansible all -m ping
-cd ~
-ks -ls
-ls -la
-cd ./ansible_lesson01/
-ansible-playbook 001_playbook.yml 
-ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml 
-ll
-cd ~
-ll
-cd  ansible_lesson01/
-ll
-vim 001_playbook.yml
-cat inventory 
-ansible-inventory
-ll
-ansible-inventory
-ansible-inventory -list
-ansible-inventory --list
-cat inventory 
 vim inventory 
 ansible-inventory --list
 ansible hode1 -m ping
@@ -998,3 +973,28 @@ cd ./ansible_lesson03/
 vim ./002_practice_task_03_vsftpd/handlers/main.yml 
 vim ./002_practice_task_03_vsftpd/tasks/main.yml 
 vim ./002_practice_task_03_vsftpd/defaults/main.yml 
+cd /home/ansible/ansible_lesson03/
+history 
+ 
+ansible-playbook 002_playbook_003_vsftpd 
+ vim inventory 
+ansible-playbook 002_playbook_003_vsftpd 
+ vim inventory 
+ vim 002_playbook_003_vsftpd 
+cd ..
+sudo git status
+ls
+cd ..
+sudo git add .
+sudo git commit -m "Lesson_03 complete"
+git push
+sudo git push
+cd /home/ansible/ansible_lesson03/
+vim inventory 
+vim ./002_practice_task_03_vsftpd/tasks/main.yml 
+vim 002_playbook_003_vsftpd 
+ansible-playbook 002_playbook_003_vsftpd
+ssh-copy-id 18.208.211.128
+sudo ssh-copy-id 18.208.211.128
+ssh-copy-id 18.208.211.128
+ansible-playbook 002_playbook_003_vsftpd

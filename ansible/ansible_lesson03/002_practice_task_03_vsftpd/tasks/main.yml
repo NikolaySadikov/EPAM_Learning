@@ -1,10 +1,10 @@
 # tasks file for 002_practice_task_03_vsftpd
 
 ---
-#- name: Ensure `listen` and `listen_ipv6` are mutually exclusive
-#  assert:
-#    that: "vsftpd_listen != vsftpd_listen_ipv6"
-#  tags: vsftpd
+- name: Ensure `listen` and `listen_ipv6` are mutually exclusive
+  assert:
+    that: "vsftpd_listen != vsftpd_listen_ipv6"
+  tags: vsftpd
 
 
 - name: Include OS-specific variables

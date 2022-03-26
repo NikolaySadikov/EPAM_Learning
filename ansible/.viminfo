@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1648304649,,"wq"
+|2,0,1648312168,,"wq"
 :q
 |2,0,1648304630,,"q"
 :qa!
@@ -68,28 +68,84 @@ $
 |3,0,36,0,1,0,1647970057,":"
 
 # File marks:
-'0  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
-|4,48,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
-'1  4  32  ~/ansible_lesson03/inventory
-|4,49,4,32,1648304630,"~/ansible_lesson03/inventory"
-'2  4  32  ~/ansible_lesson03/inventory
-|4,50,4,32,1648304376,"~/ansible_lesson03/inventory"
-'3  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
-|4,51,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
-'4  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,52,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
-'5  4  5  ~/ansible_lesson03/inventory
-|4,53,4,5,1648302711,"~/ansible_lesson03/inventory"
-'6  4  5  ~/ansible_lesson03/inventory
-|4,54,4,5,1648302711,"~/ansible_lesson03/inventory"
-'7  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,55,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
-'8  6  6  ~/ansible_lesson03/002_practice_task_03_vsftpd/defaults/main.yml
-|4,56,6,6,1648300094,"~/ansible_lesson03/002_practice_task_03_vsftpd/defaults/main.yml"
-'9  6  18  ~/ansible_lesson03/002_practice_task_03_vsftpd/defaults/main.yml
-|4,57,6,18,1648300059,"~/ansible_lesson03/002_practice_task_03_vsftpd/defaults/main.yml"
+'0  4  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,48,4,0,1648312168,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+'1  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,49,7,0,1648311977,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+'2  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,50,7,0,1648311977,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+'3  4  29  ~/ansible_lesson03/inventory
+|4,51,4,29,1648311658,"~/ansible_lesson03/inventory"
+'4  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,52,7,0,1648311169,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+'5  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,53,7,0,1648311169,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+'6  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,54,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+'7  4  32  ~/ansible_lesson03/inventory
+|4,55,4,32,1648304630,"~/ansible_lesson03/inventory"
+'8  4  32  ~/ansible_lesson03/inventory
+|4,56,4,32,1648304376,"~/ansible_lesson03/inventory"
+'9  4  32  ~/ansible_lesson03/inventory
+|4,57,4,32,1648304376,"~/ansible_lesson03/inventory"
 
 # Jumplist (newest first):
+-'  4  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,4,0,1648312168,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,7,0,1648312160,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,7,0,1648311977,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  4  29  ~/ansible_lesson03/inventory
+|4,39,4,29,1648311658,"~/ansible_lesson03/inventory"
+-'  4  29  ~/ansible_lesson03/inventory
+|4,39,4,29,1648311658,"~/ansible_lesson03/inventory"
+-'  4  29  ~/ansible_lesson03/inventory
+|4,39,4,29,1648311658,"~/ansible_lesson03/inventory"
+-'  4  29  ~/ansible_lesson03/inventory
+|4,39,4,29,1648311658,"~/ansible_lesson03/inventory"
+-'  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,7,0,1648311169,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  7  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,7,0,1648311169,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,1,0,1648311149,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,1,0,1648311149,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,1,0,1648311149,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+|4,39,1,0,1648311149,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
 -'  3  11  ~/ansible_lesson03/002_playbook_003_vsftpd
 |4,39,3,11,1648304649,"~/ansible_lesson03/002_playbook_003_vsftpd"
 -'  4  32  ~/ansible_lesson03/inventory
@@ -97,6 +153,62 @@ $
 -'  4  32  ~/ansible_lesson03/inventory
 |4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
 -'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304630,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
+|4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
+-'  4  32  ~/ansible_lesson03/inventory
 |4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
 -'  4  32  ~/ansible_lesson03/inventory
 |4,39,4,32,1648304376,"~/ansible_lesson03/inventory"
@@ -108,214 +220,84 @@ $
 |4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
 -'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
 |4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  1  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,1,0,1648302733,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  76  0  ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-|4,39,76,0,1648302718,"~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  4  5  ~/ansible_lesson03/inventory
-|4,39,4,5,1648302711,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  1  0  ~/ansible_lesson03/inventory
-|4,39,1,0,1648302674,"~/ansible_lesson03/inventory"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
--'  20  10  ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
-|4,39,20,10,1648300311,"~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
+-'  3  13  ~/ansible_lesson03/002_playbook_003_vsftpd
+|4,39,3,13,1648302781,"~/ansible_lesson03/002_playbook_003_vsftpd"
 
 # History of marks within files (newest to oldest):
 
-> ~/ansible_lesson03/002_playbook_003_vsftpd
-	*	1648304648	0
-	"	3	11
-	^	3	12
-	.	3	11
-	+	7	32
-	+	7	0
-	+	6	0
-	+	7	0
-	+	3	11
-
-> ~/ansible_lesson03/inventory
-	*	1648304628	0
-	"	4	32
-	^	4	33
-	.	4	32
-	+	4	32
-
 > ~/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
-	*	1648302728	0
-	"	1	0
-	^	23	23
-	.	24	2
+	*	1648312167	0
+	"	4	0
+	^	4	0
+	.	4	0
 	+	21	13
 	+	16	0
 	+	15	13
@@ -336,6 +318,35 @@ $
 	+	57	2
 	+	56	0
 	+	24	2
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+
+> ~/ansible_lesson03/inventory
+	*	1648311657	0
+	"	4	29
+	^	4	30
+	.	4	29
+	+	4	29
+
+> ~/ansible_lesson03/002_playbook_003_vsftpd
+	*	1648304648	0
+	"	3	11
+	^	3	12
+	.	3	11
+	+	7	32
+	+	7	0
+	+	6	0
+	+	7	0
+	+	3	11
 
 > ~/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
 	*	1648300310	0
