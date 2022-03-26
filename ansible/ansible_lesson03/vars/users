@@ -1,0 +1,16 @@
+users:
+  Alice:
+    username: alice
+    email: alice@example.com
+    homedir: /home/alice
+    shell: /bin/bash
+  Bob:
+    username: bob
+    email: bob@example.com
+    homedir: /home/bob
+    shell: /bin/bash
+  Carol:
+    username: carol
+    email: carol@example.com
+    homedir: /home/carol
+    shell: /bin/bash

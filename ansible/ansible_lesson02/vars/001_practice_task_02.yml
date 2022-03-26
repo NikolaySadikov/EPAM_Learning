@@ -1,0 +1,40 @@
+---
+- name: Users add
+  hosts: all
+  vars_files:
+    - vars/users
+  vars:
+    # Encrypted password "bar"
+    user_pass: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          36306435343339303334343635666638623165383930383563626438393837333461306263656334
+          6139333639313430643637626130653631386662316338350a656332333066663139336265343739
+          64666562316662303838613438306534663831656433646661653536306435663334363534303666
+          3132366464613636360a636530663962316332646137346536323433646634383232343563613235
+          6332
+  tasks: 
+    - name: debug 
+      debug:
+        msg: 
+          - User {{ item.key }}
+          - Username {{ item.value.username }}
+          - with email {{ item.value.email }} 
+          - has homedirectory {{ item.value.homedir }} 
+          - and shell {{ item.value.shell }}
+          - and password {{ user_pass }}
+      with_dict: "{{ users }}"
+
+    - name: Create user account
+      user:
+        name: "{{ item.value.username }}"
+        comment: "{{ item.value.email }}"
+        home: "{{ item.value.homedir }}"
+        shell: "{{ item.value.shell }}"
+        password: "{{ user_pass | string |  password_hash('sha512') }}"
+        createhome: yes
+        state: present
+      with_dict: "{{ users }}"
+
+    - name: "output the 'user_pass' variable"
+      debug:
+        var: user_pass

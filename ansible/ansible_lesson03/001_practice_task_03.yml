@@ -1,0 +1,55 @@
+---
+- name: Install Apache with facts and handelers and templates
+  hosts: node1
+
+  tasks:
+  - name: Check os
+    debug:
+      var=ansible_os_family
+          
+          
+  - name: install apache centos
+    yum:
+      name: httpd
+      state: present
+    when: ansible_os_family == "Redhat"
+    notify: create_web_page
+
+  - name: install apache ubuntu
+    apt:
+      name: apache2
+      state: present
+    when: ansible_os_family == "Debian"
+    notify: create_web_page
+
+  - name: check hhtpd is running
+    service:
+      name: httpd
+      state: started
+    when: ansible_os_family == "Redhat"
+
+  - name: check hhtpd is running
+    service:
+      name: apache2
+      state: started
+    when: ansible_os_family == "Debian"
+
+  - name: Open port tcp/80
+    firewalld:
+      service: http
+      permanent: true
+      state: enabled
+   
+  - name: Restart the firewalld service to load in the firewall changes
+    service: 
+      name: firewalld 
+      state: restarted
+
+  handlers:
+
+  - name: create_web_page
+    lineinfile:
+      path: /var/www/html/index.html
+      line: 'Welcome to my {{ ansible_hostname }} web server'
+      state: presnt
+      create: yes 

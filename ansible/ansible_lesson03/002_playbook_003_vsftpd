@@ -1,0 +1,8 @@
+---
+- name: vsftp instalation
+  hosts: all
+
+
+  roles:
+    - 002_practice_task_03_vsftpd
+

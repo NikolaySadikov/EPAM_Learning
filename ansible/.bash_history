@@ -1,40 +1,3 @@
-ssh-copy-id 172.16.181.95
-ssh-copy-id 172.16.181.96
-su
-ssh-keygen
-ssh-copy-id 172.16.181.95 && ssh-copy-id 172.16.181.96
-echo "ansible ALL=(ALL) NOPASSWD:ALL" /etc/sudoers.d/ansible
-ssh-copy-id 172.16.181.95 && ssh-copy-id 172.16.181.96
-echo "%ansible ALL = (ALL) NOPASSWD:ALL" > /etc/sudoers.d/ansible
-sudo -s
-vim inventory
-sudo vim inventory
-!
-ansible inventory --list
-ansible-inventory --list
-cat inventory 
-sudo vim inventory
-cat inventory 
-ansible-inventory --list
-ansible all -i inventory --list
-chmod 777 inventory 
-sudo chmod 777 inventory 
-ansible all -i inventory --list
-cd
-ll
-cd ~
-ls -la
-mkdir ansible_lesson01
-cd ./ansible_lesson01/
-vim inventory
-ansible all -i inventory --list-hosts
-ansible all -m ping
-vim ansible.cfg
-ansible -v
-ansible all -m ping
-ansible-inventory --list
-vim inventory 
-ansible all -m ping
 cat inventory 
 ansible-inventory --graph
 ansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graphansible-inventory --graph!
@@ -827,3 +790,211 @@ sudo git commit -m "edit of Task2"
 history 
 git push
 sudo git push
+cd /home/ansible/ansible_lesson02/
+ls
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml 
+ansible-playbook 001_practice_task_02.yml 
+history 
+ansible-vault encrypt_string --vault-password-file master_password.txt
+ansible-vault  001_practice_task_02.yml --vault-password-file master_password.txt
+ansible-playbook 001_practice_task_02.yml --vault-password-file master_password.txt
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ls
+ls /var/
+ls ./vars/
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+cat master_password.txt 
+cat ansible.cfg 
+cat /etc/centos-release
+python --version
+python3 --version
+cat /etc/centos-release
+vim 001_practice_task_02.yml
+ansible-playbook 001_practice_task_02.yml 
+vim 001_practice_task_02.yml
+cd ..
+ls
+cd ..
+ls
+ls -la
+sudo git status
+git add .
+sudo git add .
+sudo git push
+vim 001_practice_task_02.yml
+vim ./ansible/ansible_lesson02/001_practice_task_02.yml 
+ansible-playbook ./ansible/ansible_lesson02/001_practice_task_02.yml 
+vim ./ansible/ansible_lesson02/001_practice_task_02.yml 
+ansible-playbook ./ansible/ansible_lesson02/001_practice_task_02.yml 
+cd ./ansible/ansible_lesson02/
+ansible-playbook 001_practice_task_02.yml 
+cd ../..
+ls
+ls -la
+sudo git add .
+sudo git status
+sudo git commit -m "Issiue with password hashing solved"
+sudo git push
+vim ./ansible/ansible_lesson02/001_practice_task_02.yml
+sudo git commit -m "fix sintax"
+sudo git push
+sudo git commit -m "fix sintax"
+sudo git add .
+sudo git commit -m "fix sintax"
+sudo git push
+cd /home/ansible/
+ls
+mkdir ansible_lesson03
+cd ./ansible_lesson03/
+ls
+cp /home/ansible/ansible_lesson02/* /
+cp /home/ansible/ansible_lesson02/* 
+ls
+cp /home/ansible/ansible_lesson02/* .
+cp /home/ansible/ansible_lesson02/* /home/ansible/ansible_lesson03
+cp -R /home/ansible/ansible_lesson02/* /home/ansible/ansible_lesson03
+ls
+rm master_password.txt 
+rm 001_practice_task_02.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim ansible.cfg 
+ansible-playbook 001_practice_task_03.yml 
+vim ansible.cfg 
+vim 001_practice_task_03.yml
+vim ansible.cfg 
+ansible-playbook 001_practice_task_03.yml 
+vim ansible.cfg 
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+cat /home/ansible/ansible_lesson02/001_practice_task_02.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+ 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+vim 001_practice_task_03.yml
+ansible-playbook 001_practice_task_03.yml 
+cd /home/ansible/ansible_lesson03/
+ansible node1 -m setup
+ 
+ansible node1 -m setup -a 'filter=ansible_*_mb'
+ansible node1 -m setup -a 'filter=html'
+ansible node1 -m setup
+cd /home/ansible/ansible_lesson03
+ls
+ansible- galaxy init MyNewRole
+ansible-galaxy init MyNewRole
+ls
+cd /home/ansible/ansible_lesson03
+ls
+cat 001_practice_task_03.yml 
+cd /home/ansible/ansible_lesson02/
+cat 001_practice_task_02.yml 
+cd ..
+ls ./ansible_lesson03/
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/RedHat.yml 
+mv /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Centos.yml
+mv /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/RedHat.yml /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Centos.yml 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Centos.yml
+mv /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Centos.yml /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Redhat.yml
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Redhat.yml 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/RedHat.yml
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Redhat.yml 
+mv /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/Redhat.yml /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/RedHat.yml
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/vars/RedHat.yml 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/selinux.yml
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/handlers/main.yml 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/selinux.yml
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/templates/etc_vsftpd_vsftpd.conf.j2
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml
+cd /home/ansible/ansible_lesson02/
+ls
+cd ..
+cd ./ansible_lesson03/
+vim ./002_practice_task_03_vsftpd/handlers/main.yml 
+vim ./002_practice_task_03_vsftpd/tasks/main.yml 
+vim ./002_practice_task_03_vsftpd/defaults/main.yml 
