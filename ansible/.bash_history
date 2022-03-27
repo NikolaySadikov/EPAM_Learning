@@ -1,89 +1,3 @@
-vim inventory 
-ansible-inventory --list
-ansible hode1 -m ping
-ansible node1 -m ping
-ansible node1 node2 -m ping
-ansible node1 -m ping
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-cat inventory 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-vim 001_playbook.yml 
-ansible-playbook 001_playbook.yml 
-ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml ansible-playbook 001_playbook.yml 
-sudo yum install git
-git --version
-cd ..
-git init
-git .init
-git -init
-git
-git init
-ll -la
-tree
-cd ..
-tree
-cd ansible/
-ll -la
-ll -lall -lall -la
-ls
-cd ..
-ll
-mv ansible epam_ansible
-sudo mv ansible epam_ansible
-ls
-cd ..
-cd home/epam_ansible/
-ls -la
-rm .git/
-sudo rm .git/
-sudo rm -R .git/
-ls -ls
-ls -la
-git init
-ls -la
-cd ..
-git init
-sudo git init
-git add epam_ansible/
-git add epam_ansible
-sudo git add epam_ansible
-sudo git add epam_ansible/
-git commit 
-sudo git commit 
-!
-git remote add origin remote repository https://github.com/NikolaySadikov/EPAM_Learning.git
-git remote add origin https://github.com/NikolaySadikov/EPAM_Learning.git
-sudo git remote add origin remote repository https://github.com/NikolaySadikov/EPAM_Learning.git
- sudo git remote add origin https://github.com/NikolaySadikov/EPAM_Learning.git
-git push origin master
-sudo git push origin master
-sudo git push -f origin master
-git
-git status
-git commit 
-sudo git commit 
-git config --global user.email "nikolay.sadikov@gmail.com"
-sudo git config --global user.email "nikolay.sadikov@gmail.com"
-sudo git config --global user.name "nsadikov"
-sudo git commit 
-git add epam_ansible
-sudo git add epam_ansible
 sudo git add epam_ansible/
 cd epam_ansible/
 ls -ls
@@ -998,3 +912,89 @@ ssh-copy-id 18.208.211.128
 sudo ssh-copy-id 18.208.211.128
 ssh-copy-id 18.208.211.128
 ansible-playbook 002_playbook_003_vsftpd
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml 
+cd /home/ansible/ansible_lesson03
+vim inventory 
+ssh-copy-id 3.95.216.67
+ansible-playbook 002_playbook_003_vsftpd 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml 
+ansible-playbook 002_playbook_003_vsftpd 
+vim /home/ansible/ansible_lesson03/002_practice_task_03_vsftpd/tasks/main.yml 
+ansible-playbook 002_playbook_003_vsftpd 
+cd ..
+cd home/
+ls
+sudo git add .
+sudo git commit -m "Lesson03 typos fixed"
+sudo git push
+cd /home/ansible
+ls
+sudo yum install -y epel-release
+sudo yum  install -y ansible bash-cpmpletion git device-mapper-persistent-data lvm2 python3 vim yum-utils
+sudo yum  install -y ansible bash-completion git device-mapper-persistent-data lvm2 python3 vim yum-utils
+git clone -b 17.1.0 https://github.com/ansible/awx.git
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install -y docker-ce docker-ce-cli container.io
+sudo yum install -y docker-ce docker-ce-cli containerd.io
+sudo systemctl enable --now docker
+sudo yum install -y docker-ce docker-ce-cli containerd.io
+sudo docker --version
+udo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io
+yum install
+yum upadte
+yum update
+sudo yum update
+sudo yum upgrade
+sudo yum update --allowerasing
+sudo yum update --allowerasing --skip-broken --nobest
+sudo yum install docker-ce docker-ce-cli containerd.io
+sudo yum install docker-ce docker-ce-cli containerd.io --allowerasing --skip-broken --nobest
+sudo systemctl enable --now docker
+docker --version
+sudo systemctl enable --now docker
+sudo systemctl start docker
+journalctl -u docker
+sudo systemctl daemon-reload
+sudo systemctl start docker
+udo systemctl start docker
+sudo systemctl start docker
+sudo snap status docker
+sudo systemctl start docker.socket
+reload
+sudo reboot
+cd /home/ansible/
+ls
+cat ./awx/installer/inventory 
+vim ./awx/installer/inventory 
+sudo setenforce 0
+sestatus
+sudo setenforce 0
+ansible-playbook -i inventory install.yml
+cd ./awx/installer/
+ansible-playbook -i inventory install.yml
+sudo ansible-playbook -i inventory install.yml
+sudo systemctl start docker.socket
+sudo systemctl start docker
+udo docker run hello-world
+sudo docker run hello-world
+docker --version
+sudo snap services
+sudo yum install snap
+systemctl start docker 
+su
+systemctl start docker 
+su
+ls
+cd
+ls
+ls -la
+cat .ssh/id_rsa
+ssh-copy-id 172.16.181.69
+ls
+cd  ansible_lesson03/
+ls
+rm 002_playbook_003_vsftpd 002_playbook_003_vsftpd.yml
+ls
+exit
