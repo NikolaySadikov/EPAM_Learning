@@ -1,6 +1,6 @@
 ---
 - name: 001_practice_task_001
-  hosts: node1
+  hosts: all
 
 
   tasks:
