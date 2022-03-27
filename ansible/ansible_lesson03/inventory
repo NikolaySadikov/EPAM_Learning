@@ -1,4 +1,4 @@
 [nodes]
 node1 ansible_host=172.16.181.95
 node2 ansible_host=172.16.181.96
-node3 ansible_host=3.95.216.67
+node3 ansible_host=184.72.168.129
